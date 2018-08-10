@@ -1,0 +1,194 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kaushan Script', cursive;
+    background-color: lightskyblue;
+}
+
+.list-style {
+    list-style-type: none;
+}
+
+.half {
+    width: 50%;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.center {
+    text-align: center;
+}
+
+header {
+    padding: 10px 5px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#header {
+    background-color: #400080;
+}
+
+#nav {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+}
+
+#nav>li {
+    display: inline-block;
+    margin: 5px 15px;
+}
+
+#nav>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+#nav>li>a:hover {
+    color: red;
+}
+
+    #active {
+    color: lightblue !important;
+    }
+
+#banner {
+    width: 100%;
+    height: 1850px;
+    background-image: url('./Images/banner.jpg');
+    background-size: cover;
+    background-position: top;
+}
+
+#banner-text {
+    color: white;
+    line-height: 1850px;
+    text-align: center;
+    font-size: 3em;
+}
+
+#information {
+    overflow: hidden;
+}
+
+#info-img {
+    width: 50%;
+}
+
+#info-img>img {
+    width: 100%;
+}
+
+#info-text {
+    width: 50%;
+}
+
+.info-list {
+    font-size: xx-large;
+}
+
+#info-button {
+    background-color: indigo;
+    color: white;
+    padding: 15px;
+    border: black 3px solid;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+#info-button:hover {
+    background-color: black;
+    border: indigo 3px solid;
+}
+
+.third {
+    width: 33%;
+    float: left;
+    text-align: center;
+    max-height: 400px;
+}
+
+.about-images {
+    width: 80%;
+}
+
+#cols {
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+footer {
+    height: 100px;
+    background-color: #400080;
+}
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+footer>p {
+    color: white;
+    line-height: 30px;
+}
+
+#about {
+    padding-top: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+    overflow: hidden;
+}
+
+#contact {
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.contact-img {
+    float: left;
+}
+
+#contact-img>h1 {
+    padding-bottom: 30px;
+}
+
+#contact-img {
+    float: bottom;
+}
+
+#contact-img>h1 {
+    padding-bottom: 30px;
+}
+
+.button-contact {
+    background-color: indigo;
+    padding: 20px;
+    color: white;
+    border-radius: 8px;
+}
+
+.button-contact:hover {
+    background-color: #333300;
+    padding: 9999px;
+    border-radius: 10px 9999px 10px 9999px;
+}
+
+#contact-img>img {
+    width: 200px;
+}
+
+.pushup {
+    margin-bottom: 200px;
+}
